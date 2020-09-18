@@ -1,0 +1,115 @@
+body {
+  margin: 40px 10%;
+  padding: 0;
+  color: #2e2e2e;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  background-color: #f8f8f8;
+}
+
+#logo {
+  height: 46px;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+#nav-div > a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #0e0fed;
+  font-size: 20px;
+  margin: 0 1.5vw;
+}
+
+#nav-div > a:visited {
+  color: white;
+}
+
+#nav-div > a:hover {
+  color: #0e0fed;
+  background-color: transparent;
+}
+
+p > a {
+  color: #0e0fed;
+}
+
+p > a:visited {
+  color: #0e0fed;
+}
+
+main {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+#headshot {
+  border-radius: 50%;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 60px 20%;
+  }
+  #logo {
+    height: 52px;
+  }
+  #nav-div > a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  main {
+    font-size: 18px;
+  }
+  #headshot {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  body {
+    margin: 60px 20vw;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ##nav-div > a {
+    font-size: 19px;
+    margin: 0 9px;
+  }
+  main {
+    padding-top: 8vh;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  #headshot {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    margin: 60px 24vw;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  body {
+    margin: 60px 26vw;
+  }
+}
