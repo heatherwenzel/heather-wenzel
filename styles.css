@@ -3,11 +3,11 @@ body {
   padding: 0;
   color: #2e2e2e;
   text-align: center;
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   background-color: #f8f8f8;
 }
 
-#logo {
+#header {
   height: 46px;
   margin-bottom: 20px;
 }
