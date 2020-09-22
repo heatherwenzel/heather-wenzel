@@ -85,7 +85,7 @@ p {
     justify-content: space-between;
     align-items: center;
   }
-  ##nav-div > a {
+  #nav-div > a {
     font-size: 19px;
     margin: 0 9px;
   }
