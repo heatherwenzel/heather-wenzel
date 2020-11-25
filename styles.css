@@ -38,8 +38,10 @@ p > a {
   color: #0e0fed;
 }
 
-p > a:visited {
-  color: #0e0fed;
+p > a:hover {
+  color: white;
+  background-color: #0e0fed;
+  text-decoration: none;
 }
 
 main {
