@@ -36,6 +36,7 @@ nav {
 
 p > a {
   color: #0e0fed;
+  letter-spacing: 1px;
 }
 
 p > a:hover {
